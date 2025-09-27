@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                     // Versão JS que o Node entende
+    "module": "commonjs",                   // Sistema de módulos do Node
+    "rootDir": "src",                       // Pasta raiz do código
+    "outDir": "dist",                       // Pasta onde o TS compila os arquivos JS
+    "strict": true,                         // Ativa todas as checagens de tipo
+    "esModuleInterop": true,                // Permite importar módulos comuns do Node corretamente
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

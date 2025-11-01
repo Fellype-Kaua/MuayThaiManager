@@ -2,13 +2,16 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import healthRouter from "./modules/health.route";
+import userRouter from "./modules/user/user.routes";
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+app.use(express.json());
 
 app.use("/health", healthRouter)
+app.use("/users", userRouter);
 
 mongoose.connect(process.env.MONGO_URI!)
   .then(() => console.log("✅ MongoDB Atlas conectado!"))

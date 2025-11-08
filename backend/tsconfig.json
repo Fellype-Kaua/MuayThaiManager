@@ -11,8 +11,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noImplicitAny": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": true
   },
   "include": ["src"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }

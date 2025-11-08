@@ -38,6 +38,16 @@ userSchema.pre("save", async function (next) {
   this.password = await bcrypt.hash(this.password, salt);
   next();
 });
+// 🔒 Hash da senha antes de atualizar
+userSchema.pre("findOneAndUpdate", async function (next) {
+  const update = this.getUpdate() as any;
+  if (update.password) {
+    const salt = await bcrypt.genSalt(10);
+    update.password = await bcrypt.hash(update.password, salt);
+    this.setUpdate(update);
+  }
+  next();
+});
 
 // 🔑 Método opcional para comparar senha
 userSchema.methods.comparePassword = async function (password: string) {

@@ -1,4 +1,4 @@
-# ADR-004 – SCSS Modules Choice
+# ADR-001 – SCSS Modules Choice
 
 ## Context
 Deciding the styling method for the frontend. Options: Tailwind, Bootstrap, or SCSS Modules.
@@ -17,7 +17,7 @@ We will use **SCSS Modules**.
 
 ---
 
-# ADR-004 – Escolha do SCSS Modules no front (PT)
+# ADR-001 – Escolha do SCSS Modules no front (PT)
 
 ## Contexto
 Decidir a forma de estilização no frontend. Opções: Tailwind, Bootstrap ou SCSS Modules.

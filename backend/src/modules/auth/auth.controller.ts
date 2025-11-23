@@ -29,7 +29,14 @@ export const loginController = async (req: Request, res: Response) => {
       JWT_SECRET as jwt.Secret,
       { expiresIn: JWT_EXPIRES_IN } as SignOptions
     );
-    return res.status(200).json({ token });
+    return res.cookie("authToken", token,{
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "lax",
+      maxAge: 1000 * 60 * 60 * 24,
+    }).json({
+      message: "Login successful",
+    })
   } catch (error) {
     console.error("Erro no login:", error);
     return res.status(500).json({ message: "Erro interno do servidor" });

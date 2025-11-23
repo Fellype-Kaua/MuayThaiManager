@@ -1,4 +1,4 @@
-# ADR-010 – Commit Convention
+# ADR-004 – Commit Convention
 
 ## Context
 We needed to define a commit message convention to keep the Git history organized, consistent, and professional. This improves collaboration, makes the project evolution easier to read, and demonstrates good practices in the portfolio.
@@ -20,7 +20,7 @@ We decided to adopt **Conventional Commits**, following the format:
 
 ---
 
-# ADR-010 – Convenção de Commits (PT)
+# ADR-004 – Convenção de Commits (PT)
 
 ## Contexto
 Precisávamos definir uma convenção de mensagens de commit para manter o histórico do Git organizado, consistente e profissional. Isso melhora a colaboração, facilita a leitura da evolução do projeto e demonstra boas práticas no portfólio.

@@ -1,4 +1,4 @@
-# ADR-008 – Axios Choice
+# ADR-002 – Axios Choice
 
 ## Context
 Define how the frontend will make HTTP requests.
@@ -17,7 +17,7 @@ We will use **Axios**.
 
 ---
 
-# ADR-008 – Escolha do Axios (PT)
+# ADR-002 – Escolha do Axios (PT)
 
 ## Contexto
 Definir como o frontend fará requisições HTTP.

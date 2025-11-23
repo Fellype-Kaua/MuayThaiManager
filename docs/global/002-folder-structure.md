@@ -1,4 +1,4 @@
-# ADR-006 – Folder Structure
+# ADR-002 – Folder Structure
 
 ## Context
 Define folder structure for backend and frontend.
@@ -13,9 +13,6 @@ src/
 ├─ app.ts
 └─ server.ts
 
-makefile
-Copiar código
-
 **Frontend:**
 src/
 ├─ components/
@@ -23,9 +20,6 @@ src/
 ├─ services/
 ├─ styles/
 └─ App.tsx
-
-yaml
-Copiar código
 
 ## Justification
 - Modularization
@@ -38,7 +32,7 @@ Copiar código
 
 ---
 
-# ADR-006 – Organização das pastas (PT)
+# ADR-002 – Organização das pastas (PT)
 
 ## Contexto
 Definir estrutura de pastas para backend e frontend.
@@ -53,9 +47,6 @@ src/
 ├─ app.ts
 └─ server.ts
 
-makefile
-Copiar código
-
 **Frontend:**
 src/
 ├─ components/
@@ -63,9 +54,6 @@ src/
 ├─ services/
 ├─ styles/
 └─ App.tsx
-
-markdown
-Copiar código
 
 ## Justificativa
 - Modularidade

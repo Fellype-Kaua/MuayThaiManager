@@ -1,4 +1,4 @@
-# ADR-007 – Project Patterns
+# ADR-003 – Project Patterns
 
 ## Context
 Decide project patterns for backend and frontend.
@@ -17,7 +17,7 @@ Decide project patterns for backend and frontend.
 
 ---
 
-# ADR-007 – Padrões de projeto (PT)
+# ADR-003 – Padrões de projeto (PT)
 
 ## Contexto
 Decidir padrões de projeto para backend e frontend.

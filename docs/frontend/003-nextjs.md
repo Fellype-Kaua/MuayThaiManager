@@ -1,4 +1,4 @@
-# ADR-009 – No Next.js Choice
+# ADR-003 – No Next.js Choice
 
 ## Context
 Decide whether the frontend should use Next.js or React (Vite).
@@ -17,7 +17,7 @@ We will use **React + Vite**, without Next.js.
 
 ---
 
-# ADR-009 – Escolha de não usar Next.js (PT)
+# ADR-003 – Escolha de não usar Next.js (PT)
 
 ## Contexto
 Decidir se o frontend usaria Next.js ou React puro (Vite).

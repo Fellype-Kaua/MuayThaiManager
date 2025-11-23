@@ -1,4 +1,4 @@
-# ADR-005 – Naming Conventions
+# ADR-001 – Naming Conventions
 
 ## Context
 Define naming conventions for files, folders, variables, and functions.
@@ -19,7 +19,7 @@ Define naming conventions for files, folders, variables, and functions.
 
 ---
 
-# ADR-005 – Nomenclaturas (PT)
+# ADR-001 – Nomenclaturas (PT)
 
 ## Contexto
 Definir padrão de nomenclatura de arquivos, pastas, variáveis e funções.

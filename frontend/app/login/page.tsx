@@ -1,6 +1,7 @@
 "use client";
 import axios from "axios";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -20,12 +21,17 @@ const LoginPage = () => {
           password},
           {withCredentials: true}
         )
+            router.push("/");
       } catch (err: any){
-        setError(err.response?.data?.message || 'login failed')
+        console.log(err.response);
+
       } finally {
         setLoading(false)
       }
     }
+
+    const router = useRouter();
+
   return (
 
     <section>

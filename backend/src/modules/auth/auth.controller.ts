@@ -29,7 +29,9 @@ export const loginController = async (req: Request, res: Response) => {
       JWT_SECRET as jwt.Secret,
       { expiresIn: JWT_EXPIRES_IN } as SignOptions
     );
-    return res.cookie("authToken", token,{
+    return res
+    .status(200)
+    .cookie("authToken", token,{
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       sameSite: "lax",
